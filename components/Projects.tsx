@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { getProjects } from "@/lib/sanity.queries";
 import Image from "next/image";
+import { urlFor } from "@/lib/sanity.client";
 
 interface Project {
   _id: string;
